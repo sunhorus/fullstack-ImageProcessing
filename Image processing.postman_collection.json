@@ -1,0 +1,44 @@
+{
+	"info": {
+		"_postman_id": "9427b799-dc5d-4b46-9c1c-a840cc951fdb",
+		"name": "Image processing",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "process image",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/v0/image?name=fjord&hight=500&width=250",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v0",
+						"image"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "fjord"
+						},
+						{
+							"key": "hight",
+							"value": "500"
+						},
+						{
+							"key": "width",
+							"value": "250"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
