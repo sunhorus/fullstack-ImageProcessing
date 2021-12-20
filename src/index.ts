@@ -1,6 +1,6 @@
 import express from 'express';
 import cors from 'cors';
-import routes from './routes/index'
+import routes from './routes/index';
 import { logger } from './utils/utils';
 
 //init the app server with required param
@@ -12,7 +12,7 @@ app.use(cors(), logger);
 
 //respond to the default path to inform the user to use the correct path
 app.get('/', (req, res) => {
-    res.send('please use /api/v0/image');
+  res.send('please use /api/v0/image');
 });
 
 //route to handle the app routes
