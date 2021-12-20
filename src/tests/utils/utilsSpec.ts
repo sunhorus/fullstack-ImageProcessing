@@ -2,7 +2,7 @@ import { processImage } from '../../utils/utils';
 import fs from 'fs';
 import path from 'path';
 
-describe('Test endpoint responses', () => {
+describe('Test Image Processing Function', () => {
   it('Test create iamge', async () => {
     const basePath = `${__dirname}/../../../images`;
     const temp = `${basePath}/thumb/fjord-150-150.jpg`;
